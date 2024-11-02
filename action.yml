@@ -6,13 +6,12 @@ runs:
   image: "Dockerfile"
 branding:
   icon: "git-branch"
-  color: "red"
 inputs:
   email:
-    description: The commiter's email address
+    description: The committer's email address
     required: true
-    default: ${{ github.actor }}@localhost
+    default: ""  # You can set this to an empty string or remove it
   name:
     description: The committer's name
     required: true
-    default: ${{ github.actor }}
+    default: ""  # You can set this to an empty string or remove it
