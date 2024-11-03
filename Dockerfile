@@ -1,6 +1,4 @@
-FROM ubuntu:20.04  # or any other base image you prefer
-
-
+FROM ubuntu:latest  # or any other base image you prefer
 # Install Python 3.10 and pip
 
 RUN apt-get update && apt-get install -y \
